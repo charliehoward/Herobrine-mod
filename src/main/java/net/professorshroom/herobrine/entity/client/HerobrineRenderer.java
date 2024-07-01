@@ -7,7 +7,7 @@ import net.professorshroom.herobrine.Herobrine;
 import net.professorshroom.herobrine.entity.custom.HerobrineEntity;
 
 public class HerobrineRenderer extends MobEntityRenderer<HerobrineEntity, HerobrineModel<HerobrineEntity>> {
-    private static final Identifier TEXTURE = Identifier.of(Herobrine.MOD_ID, "assets/herobrine/textures/entity/herobrine.png");
+    private static final Identifier TEXTURE = Identifier.of(Herobrine.MOD_ID, "textures/entity/herobrine.png");
 
     public HerobrineRenderer(EntityRendererFactory.Context context) {
         super(context, new HerobrineModel<>(context.getPart(ModModelLayers.HEROBRINE)), 0.6f);
