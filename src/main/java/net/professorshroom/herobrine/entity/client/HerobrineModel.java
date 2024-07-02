@@ -22,3 +22,4 @@ public class HerobrineModel<T extends HerobrineEntity> extends BipedEntityModel<
         return TexturedModelData.of(rootData, 64, 64);
     }
 }
+
